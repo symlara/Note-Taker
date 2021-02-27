@@ -40,5 +40,6 @@ class Notes  {
         .then(() => newNote)
     }
 }
+// add removeNote call here later
 
 module.exports = new Notes();
