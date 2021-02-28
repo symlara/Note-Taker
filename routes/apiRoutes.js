@@ -18,7 +18,7 @@ router.get("/notes/:id", (req, res) => {
 });
 
 router.post("/notes", (req, res) => {
-   res.send(req.id).status(200);
+   
 
     notes.addNotes(req.body)
     .then(notes => res.json(notes))

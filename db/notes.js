@@ -28,6 +28,7 @@ class Notes  {
         })
     }
 
+    // add note and also generate a new id with each
     addNotes(note) {
         const { title, text } = note;
         const newNote = { title, text, id: ++this.id }
