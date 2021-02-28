@@ -4,6 +4,8 @@ let saveNoteBtn = document.querySelector(".save.note");
 let newNoteBtn = document.querySelector(".new-note");
 let noteList = document.querySelector(".list-container .list-group");
 
+
+
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');

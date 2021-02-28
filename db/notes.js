@@ -16,9 +16,7 @@ class Notes  {
     }
 
     getNotes() {
-        console.log('get notes!')
         return this.read().then(notes => {
-            console.log(notes)
             let notesArray;
             try{
                 notesArray = [].concat(JSON.parse(notes));
@@ -31,7 +29,6 @@ class Notes  {
     }
 
     addNotes(note) {
-        console.log('add notes!');
         const { title, text } = note;
         const newNote = { title, text, id: ++this.id }
         return this.getNotes()
