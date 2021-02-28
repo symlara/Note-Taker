@@ -1,8 +1,8 @@
-let noteTitle;
-let noteText;
-let saveNoteBtn;
-let newNoteBtn;
-let noteList;
+let noteTitle = (".note-title");
+let noteText = (".note-textarea");
+let saveNoteBtn = (".save.note");
+let newNoteBtn = (".new-note");
+let noteList = (".list-container .list-group");
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -66,6 +66,7 @@ const renderActiveNote = () => {
   }
 };
 
+// get notes from input
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
@@ -170,7 +171,7 @@ const renderNoteList = async (notes) => {
 };
 
 // Gets notes from the db and renders them to the sidebar
-const getAndRenderNotes = () => getNotes().then(renderNoteList);
+const getAndRenderNotes = () => getNotes().then(renderNoteList(data));
 
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
