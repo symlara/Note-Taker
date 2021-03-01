@@ -1,4 +1,5 @@
 # Note-Taker
+Live Application link: <a href="https://note-creater.herokuapp.com/notes">Note Creator</a>
 
 ## Description 
 This application is used to generate notes. The app is ran from a server creted using Express.js but it has also been deployed onto the web using a platform called <a href="https://www.heroku.com" target="_blank">Heroku</a>.  
