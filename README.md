@@ -26,7 +26,6 @@ To run this application, first you will need to be sure all programs above are i
 
 Then you will need to type 'npm start' into the Terminal in order for the server to start working. From there you should be able to use the PORT number listed in the server.js file like such: localhost:3001 in order to see the app in your browser.
 
-<img width="520" alt="Screen Shot 2021-02-28 at 7 55 01 PM" src="https://user-images.githubusercontent.com/40181569/109442929-f4c2e700-79fe-11eb-9b55-fd5ee31f7a84.png">
 
 
 If you would like to view the app with a live link, that doesn't require running anything in the Terminal you can simply go here: <a href="https://note-creater.herokuapp.com/notes" target="_blank">Heroku</a>.
