@@ -1,5 +1,4 @@
 var router = require('express').Router();
-const { RSA_NO_PADDING } = require('constants');
 var notes = require('../db/notes.js');
 
 router.get("/notes", (req, res) => {
@@ -18,13 +17,17 @@ router.get("/notes/:id", (req, res) => {
 });
 
 router.post("/notes", (req, res) => {
-   
-
     notes.addNotes(req.body)
     .then(notes => res.json(notes))
     .catch(err => res.status(400).json(err));
 })
 
-// add delete call here later
+router.delete("/notes/:id", (req, res) => {
+    notes.removeNote(req.params.id)
+    .then(() => res.join({ok: true}))
+    .catch(err => res.status(500).json(err));
+})
+
+
 
 module.exports = router;

@@ -37,7 +37,14 @@ class Notes  {
         .then(updateNotes => this.write(updateNotes))
         .then(() => newNote)
     }
+
+    removeNote(id) {
+        console.log("remove notes");
+        return this.getNotes()
+        .then(notes => notes.filter(note => note.id !== parseInt(id)))
+        .then(updateNotes => this.write(updateNotes))
+    }
+
 }
-// add removeNote call here later
 
 module.exports = new Notes();

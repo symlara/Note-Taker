@@ -6,7 +6,7 @@ const apiRoutes = require("./routes/apiRoutes");
 
 const app = express();
 var expressreqid  = require('node-express-req-id')({
-    type: 'cuid'  // `uuid` or `cuid`
+    type: 'cuid'  //  `cuid`
   });
   app.use(expressreqid);
   
