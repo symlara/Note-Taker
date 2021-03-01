@@ -8,7 +8,7 @@ This application is used to generate notes. The app is ran from a server created
 ## Usage
 * Express.js
 * npm init
-* <a href=" https://www.npmjs.com/package/uuid" target="_blank">npm uuid package</a>
+* <a href="https://www.npmjs.com/package/uuid" target="_blank">npm uuid package</a>
 * Node.js
 
 
