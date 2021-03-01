@@ -29,3 +29,6 @@ Then you will need to type 'npm start' into the Terminal in order for the server
 If you would like to view the app with a live link, that doesn't require running anything in the Terminal you can simply go here: <a href="https://note-creater.herokuapp.com/notes" target="_blank">Heroku</a>.
 
 <img width="1394" alt="Screen Shot 2021-02-28 at 7 23 35 PM" src="https://user-images.githubusercontent.com/40181569/109442702-8bdb6f00-79fe-11eb-9e95-31009b3e4c90.png">
+
+<img width="1407" alt="Screen Shot 2021-02-28 at 7 24 12 PM" src="https://user-images.githubusercontent.com/40181569/109442798-b7f6f000-79fe-11eb-9b69-8192940615b2.png">
+
