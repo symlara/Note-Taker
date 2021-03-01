@@ -2,7 +2,7 @@
 Live Application link: <a href="https://note-creater.herokuapp.com/notes" target="_blank">Note Creator</a>
 
 ## Description 
-This application is used to generate notes. The app is ran from a server creted using Express.js but it has also been deployed onto the web using a platform called <a href="https://www.heroku.com" target="_blank">Heroku</a>.  
+This application is used to generate notes. The app is ran from a server created using Express.js but it has also been deployed onto the web using a platform called <a href="https://www.heroku.com" target="_blank">Heroku</a>.  
 
 
 ## Usage
@@ -13,7 +13,7 @@ This application is used to generate notes. The app is ran from a server creted 
 
 
 ## Installation
-To install and run this application on your local machine you will need to install the following programs.
+To install and run this application on your local machine you will need to install the following programs:
 * Express.js
 * npm uuid package - to create a unique id for each note
 * Node.js
